@@ -7,5 +7,5 @@ This project contains a framework for running crowdsourcing competitions allowin
 2. 
 
 ## Overview
-Example Submissions are included in the [`submissions`](https://github.com/StefanCaldararu/cs-framework/tree/main/submissions) folder. 
+Example Submissions are included in the [`submissions`](https://github.com/StefanCaldararu/cs-framework/tree/main/submissions) folder.
 Useful command for python: `pip freeze > requirements.txt`
