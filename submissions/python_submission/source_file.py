@@ -1,12 +1,12 @@
 import csv
 import time
-#example numpy import... not actually needed
+#example numpy import... (installed with makefile)
 import numpy as np
 
 #use some memory....
-a = np.zeros((100,100))
+a = np.zeros((10000000))
+time.sleep(3)
 #take some time using sleep
-time.sleep(10)
 #write to csv
 data = [0,0,0]
 with open('submission.csv', 'w') as f:
