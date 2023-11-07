@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(example_submission)
+project(cpp_submission)
 
 # Set the C++ standard to use
 set(CMAKE_CXX_STANDARD 17)
