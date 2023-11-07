@@ -5,7 +5,7 @@ This project contains a framework for running crowdsourcing competitions allowin
 
 1. [Submission Overview](#submission-overview)
 2. [Testing a Submission](#testing-a-submission)
-    1. [Specific Features]()
+    1. [Specific Features](https://github.com/StefanCaldararu/cs-framework/blob/main/submissions/README.md)
 3. [Submission Outputs](#submission-outputs)
 
 ## Submission Overview
