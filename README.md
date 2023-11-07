@@ -4,7 +4,8 @@ This project contains a framework for running crowdsourcing competitions allowin
 ## Table of Contents
 
 1. [Submission Overview](#submission-overview)
-2. 
+2. [Testing a Submission](#testing-a-submission)
+3. [Submission Outputs](#submission-outputs)
 
 ## Submission Overview
 Example Submissions are included in the [`submissions`](https://github.com/StefanCaldararu/cs-framework/tree/main/submissions) folder. Each submission does three things: 
@@ -14,6 +15,15 @@ Example Submissions are included in the [`submissions`](https://github.com/Stefa
 - Sleeps for three seconds, to take some amount of time.
 - write three zeros to a `submission.csv` file, which will be checied for correctness.
 
+## Testing a Submission
+To test a submission, all that needs to be run is `bash run.sh <submission_folder>`, where the `<submission_folder>` is replaced by one of the folder names in [`submissions'](https://github.com/StefanCaldararu/cs-framework/tree/main/submissions). This will first build the submission, then run it through a memory profiler, and finally time the actual submission runtime.
+> [!NOTE]
+> Just running the submission through the memory profiler will likely take longer than actually running the executable.
 
+## Submission Outputs
+All submission outputs are stored in an [`output`](https://github.com/StefanCaldararu/cs-framework/tree/main/submissions/python_submission/output) folder within the individual submissions directory. Each output folder can will contain the following three pieces of data:
+
+- The memory usage, stored in [`mem.txt`](https://github.com/StefanCaldararu/cs-framework/blob/main/submissions/python_submission/output/mem.txt)
+- The time taken, stored in [`time.txt`]https://github.com/StefanCaldararu/cs-framework/blob/main/submissions/python_submission/output/time.txt
 
 Useful command for python: `pip freeze > requirements.txt`

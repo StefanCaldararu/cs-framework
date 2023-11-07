@@ -3,7 +3,12 @@ cd ./submissions/$1
 mkdir output
 make build
 #Run a memory profiler on the program, and print out the maximum memory usage
-memusage -d ./output/full_memusage.dat make run 2> output/mem1.txt #| head -n 2 | tail -n 1 > mem.txt
+#save data file
+# memusage -d ./output/full_memusage.dat make run 2> output/mem1.txt 
+#output image and save data file
+#memusage -d ./output/full_memusage.dat -p full_memusgae.png make run 2> output/mem1.txt #| head -n 2 | tail -n 1 > mem.txt
+#basic memusage
+memusage make run 2> output/mem1.txt 
 cat output/mem1.txt | head -n 2 | tail -n 1 > output/mem.txt
 #remove the output file
 rm ./submission.csv
