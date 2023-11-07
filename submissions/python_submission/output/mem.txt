@@ -1,0 +1,1 @@
+[01;32mMemory usage summary:[0;0m heap total: 14398315, heap peak: 5595148, stack peak: 92768
