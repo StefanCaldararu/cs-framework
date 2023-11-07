@@ -28,7 +28,7 @@ All submission outputs are stored in an [`output`](https://github.com/StefanCald
 
 - The memory usage, stored in [`mem.txt`](https://github.com/StefanCaldararu/cs-framework/blob/main/submissions/python_submission/output/mem.txt)
 - The time taken, stored in [`time.txt`](https://github.com/StefanCaldararu/cs-framework/blob/main/submissions/python_submission/output/time.txt)
-- The submission output, stored in ['submission.csv'](https://github.com/StefanCaldararu/cs-framework/blob/main/submissions/python_submission/output/submission.csv)
+- The submission output, stored in [`submission.csv`](https://github.com/StefanCaldararu/cs-framework/blob/main/submissions/python_submission/output/submission.csv)
 
 Optionally, more memory usage information can be produced and displayed in a `full_memusage.png` and `full_memusage.dat` file, by changing [these](https://github.com/StefanCaldararu/cs-framework/blob/3ffea7211b8282ef95ea3841c4f6f09ffb4d7a07/run.sh#L6-L11) lines. An example image of full memory usage can be seen [here](https://github.com/StefanCaldararu/cs-framework/blob/main/submissions/python_submission/output/full_memusage.png)
 
