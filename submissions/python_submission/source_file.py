@@ -4,7 +4,7 @@ import time
 import numpy as np
 
 #use some memory....
-a = np.zeros((10000000))
+a = np.zeros((100000))
 time.sleep(3)
 #take some time using sleep
 #write to csv
