@@ -22,7 +22,9 @@ mv ./submission.csv ./output/submission.csv
 # Calculate the elapsed time
 elapsed_time=$(echo "$end_time - $start_time" | bc)
 echo "Elapsed time: $elapsed_time seconds" > output/time.txt
-#TODO: check if the submission.csv file is correct
-
+#check if the submission.csv file is correct.
+cd ./output
+python3 ../../../check.py > check.txt
+cd ..
 make clean
 cd ../../
