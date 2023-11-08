@@ -21,14 +21,15 @@ To test a submission, all that needs to be run is `bash run.sh <submission_folde
 > [!NOTE]
 > Just running the submission through the memory profiler will likely take longer than actually running the executable.
 
-> [!NOTE]
-> To view submission specific features, follow [this](https://github.com/StefanCaldararu/cs-framework/blob/main/submissions/README.md) link
+### Submission Specific Features
+To view submission specific features, follow [this](https://github.com/StefanCaldararu/cs-framework/blob/main/submissions/README.md) link
 
 ## Submission Outputs
-All submission outputs are stored in an [`output`](https://github.com/StefanCaldararu/cs-framework/tree/main/submissions/python_submission/output) folder within the individual submissions directory. Each output folder can will contain the following three pieces of data:
+All submission outputs are stored in an [`output`](https://github.com/StefanCaldararu/cs-framework/tree/main/submissions/python_submission/output) folder within the individual submissions directory. Each output folder will contain the following four pieces of data:
 
 - The memory usage, stored in [`mem.txt`](https://github.com/StefanCaldararu/cs-framework/blob/main/submissions/python_submission/output/mem.txt)
 - The time taken, stored in [`time.txt`](https://github.com/StefanCaldararu/cs-framework/blob/main/submissions/python_submission/output/time.txt)
 - The submission output, stored in [`submission.csv`](https://github.com/StefanCaldararu/cs-framework/blob/main/submissions/python_submission/output/submission.csv)
+- Whether or not the submission passed, stored in [`check.txt`](https://github.com/StefanCaldararu/cs-framework/blob/main/submissions/python_submission/output/check.txt)
 
 Optionally, more memory usage information can be produced and displayed in a `full_memusage.png` and `full_memusage.dat` file, by changing [these](https://github.com/StefanCaldararu/cs-framework/blob/3ffea7211b8282ef95ea3841c4f6f09ffb4d7a07/run.sh#L6-L11) lines. An example image of full memory usage can be seen [here](https://github.com/StefanCaldararu/cs-framework/blob/main/submissions/python_submission/output/full_memusage.png)

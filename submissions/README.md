@@ -39,7 +39,7 @@ The python file is directly run using `python3`.
 ### Cleaning
 In this example, the conda environment is removed. This is not necessary, but good practice to provide a clean environment for other submissions
 > [!NOTE]
-> For more professional organizations, a completely new environment will likely be used, so this is unnecessary.
+> For more professional organizations, a completely new environment will likely be used, so cleaning is unnecessary.
 
 ## C Submission
 ### Building
