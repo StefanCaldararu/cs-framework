@@ -20,6 +20,7 @@ Example Submissions are included in the [`submissions`](https://github.com/Stefa
 To test a submission, all that needs to be run is `bash run.sh <submission_folder>`, where the `<submission_folder>` is replaced by one of the folder names in [`submissions`](https://github.com/StefanCaldararu/cs-framework/tree/main/submissions). This will first build the submission, then run it through a memory profiler, and finally time the actual submission runtime.
 > [!NOTE]
 > Just running the submission through the memory profiler will likely take longer than actually running the executable.
+
 > [!NOTE]
 > To view submission specific features, follow [this](https://github.com/StefanCaldararu/cs-framework/blob/main/submissions/README.md) link
 
