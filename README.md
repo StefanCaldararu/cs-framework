@@ -12,9 +12,9 @@ This project contains a framework for running crowdsourcing competitions allowin
 Example Submissions are included in the [`submissions`](https://github.com/StefanCaldararu/cs-framework/tree/main/submissions) folder. Each submission does three things: 
 - It generates an array of some sort, so as to use some memory. 
 > [!NOTE]
-> Especially in c and cpp, when running with the [optimization](https://github.com/StefanCaldararu/cs-framework/blob/aed8085c5ed76d176d97ce88b50574912abcd0b1/submissions/c_submission/CMakeLists.txt#L6C1-L6C1) there will likely be memory usage associated with the run. This is because the arrays don't get used for anything, and so likely get optimized out.
+> Especially in c and cpp, when running with the [optimization](https://github.com/StefanCaldararu/cs-framework/blob/aed8085c5ed76d176d97ce88b50574912abcd0b1/submissions/c_submission/CMakeLists.txt#L6C1-L6C1) there will likely be less memory usage associated with the run than expected. This is because the arrays don't get used for anything, and so likely get optimized out.
 - Sleeps for three seconds, to take some amount of time.
-- write three zeros to a `submission.csv` file, which will be checied for correctness.
+- writes three zeros to a `submission.csv` file, which will be checked for correctness.
 
 ## Testing a Submission
 To test a submission, all that needs to be run is `bash run.sh <submission_folder>`, where the `<submission_folder>` is replaced by one of the folder names in [`submissions`](https://github.com/StefanCaldararu/cs-framework/tree/main/submissions). This will first build the submission, then run it through a memory profiler, and finally time the actual submission runtime.

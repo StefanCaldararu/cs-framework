@@ -1,8 +1,8 @@
 # Submissions
-There are four submissions included as examples. Each of the submissions has seperate build features, demonstrating the capabilities. Hopefully, enough examples for building are included that other examples can be run, assuming the appropriate compilers are installed.
+There are four submissions included as examples. Each of the submissions has seperate build features, demonstrating the capabilities. Hopefully, enough examples for building are included that true implementations of this functionality can be easily run, and other languages can be submitted assuming the appropriate compilers are installed.
  
  > [!NOTE]
- > Specific documentation and examples which can be directly used are provided for python users to make usage of the system as easy as possible, as they may be unexperienced with `Makefile`s. For C and C++, it is assumed users know how to use `cmake`, and other build capabilities.
+ > Specific documentation and examples which can be directly used are provided for python users to make usage of the system as easy as possible, as they may be unexperienced with `Makefile`s. For C and C++, it is assumed users know how to use `cmake`, and will be able to provide their own build scripts.
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ There are four submissions included as examples. Each of the submissions has sep
 5. [Java Submission](#java-submission)
 
 ## Submission Requirements
-A file named `source_file.<extension>`, along with a `Makefile` must be submitted for each submission. Additionally, bash build scripts and other files (such as [cmake](https://github.com/StefanCaldararu/cs-framework/blob/main/submissions/c_submission/CMakeLists.txt)) can be included in the submission folder. the `Makefile` must be structured as follows:
+A file named `source_file.<extension>`, along with a `Makefile` **__must__** be submitted for each submission. Additionally, bash build scripts and other files (such as [cmake](https://github.com/StefanCaldararu/cs-framework/blob/main/submissions/c_submission/CMakeLists.txt)) can be included in the submission folder. the `Makefile` must be structured as follows:
 
 ```
 build:
