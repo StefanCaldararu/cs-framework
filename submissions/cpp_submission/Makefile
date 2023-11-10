@@ -1,8 +1,7 @@
 build:
-	pip install -r requirements.txt && bash build.sh
+	bash build_dependancies.sh && bash build.sh
 	#build the dependencies
 run: 
-	./source_file
+	./build/source_file
 clean:
-	pip uninstall -r requirements.txt -y
-	# also need to remove the build!!!
+	rm -rf ./build && rm -rf ./eigen

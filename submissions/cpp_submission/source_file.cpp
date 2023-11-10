@@ -3,7 +3,7 @@
 #include <vector>
 #include <thread>
 #include <chrono>
-// #include <torch/torch.h>
+#include <eigen3/Eigen/Dense>
 
 int main() {
     // Create an array of length 10,000 filled with zeros
