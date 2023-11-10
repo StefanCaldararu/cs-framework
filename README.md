@@ -1,6 +1,9 @@
 # CS-Framework
 This project contains a framework for running crowdsourcing competitions allowing for various programming languages. The primary purpose of this is to be able to run submissions written in various languages with various dependancies, and analyze program correctness, the time taken by the program, and the memory usage.
 
+> [!NOTE]
+> The target platform for running submissions is [Ubuntu](https://ubuntu.com/)
+
 ## Table of Contents
 
 1. [Submission Overview](#submission-overview)
